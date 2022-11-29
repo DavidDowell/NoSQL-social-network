@@ -17,8 +17,10 @@
       
 
   ## Installation
-  
-  
+  * Node.js
+  * npm init -y to initialize node and packages about to be installed. 
+  * npm install express
+  * npm install mongoose
 
   ## Usage Information
   When a commmand is entered to invoke the application, Then the server is started and the Mongoose models are synced to the MongoDB database. When insomnia is used to GET users and thoughts, Then the data for each of these routes is displayed in a formatted JSON. CRUD operations are tested and available to POST, PUT, and DELETE users and thoughts. These routes will also successfully create and delete reactions to thoughts and add/remove friends from a user's friend list.

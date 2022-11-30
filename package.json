@@ -1,6 +1,7 @@
 {
   "name": "nosql-social-network",
   "version": "1.0.0",
+  "private": true,
   "description": "## Walkthrough",
   "main": "server.js",
   "scripts": {

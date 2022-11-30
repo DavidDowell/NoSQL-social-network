@@ -17,6 +17,8 @@ router.route('/')
 router.route('/:thoughtId')
     .get(getThoughtById)
     .put(updateThought)
+    
+router.route('/:thoughtId/:userId')
     .delete(deleteThought);
 
 router.route('/:thoughtId/reactions')
